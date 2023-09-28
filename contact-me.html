@@ -45,9 +45,9 @@
                 <label for="subject">Subject</label>
                 <Select id="subject" required>
                     <option value="" hidden></option>
-                    <option>Frontend Developer</option>
-                    <option>Backend Developer</option>
-                    <option>Fullstack</option>
+                    <option value="Frontend Developer">Frontend Developer</option>
+                    <option value="Backend Developer">Backend Developer</option>
+                    <option value="Fullstack Developer">Fullstack</option>
                 </Select>
             </div>
 
@@ -56,9 +56,10 @@
                 <textarea id="message" placeholder="Enter Your Message" require></textarea>
             </div>
             <div>
-                <button>Submit</button>
+                <button type="button" onclick="getData()">Submit</button>
             </div>
             
         </form>
     </body>
+    <script src="assets/js/script.js"></script>
 </html>
